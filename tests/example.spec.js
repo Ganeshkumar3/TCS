@@ -10,3 +10,4 @@ test('basic test', async ({ page }) => {
   await page.getByPlaceholder('Mobile Number').fill('9102938762');
   await page.getByRole('button', { name: 'Submit' }).click();
 });
+//thank you
